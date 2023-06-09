@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="217bf402-3521-4d68-86e3-922d7d8e7273" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/evaluator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#127#4494#0" />
+                <element signature="e#263#653#0" />
+                <element signature="e#702#964#0" />
+                <element signature="e#753#964#0" />
+                <element signature="e#787#964#0" />
+                <element signature="e#1055#1264#0" />
+                <element signature="e#1345#1574#0" />
+                <element signature="e#1660#1746#0" />
+                <element signature="e#1828#2908#0" />
+                <element signature="e#2278#2544#0" />
+                <element signature="e#2961#3048#0" />
+                <element signature="e#3091#3146#0" />
+                <element signature="e#3184#4273#0" />
+                <element signature="e#3241#4273#0" />
+                <element signature="e#3365#4273#0" />
+                <element signature="e#3516#3718#0" />
+                <element signature="e#3796#4206#0" />
+                <element signature="e#3834#3946#0" />
+                <element signature="e#4327#4363#0" />
+                <element signature="e#4409#4436#0" />
+                <element signature="e#4474#4494#0" />
+                <element signature="e#4513#5248#0" />
+                <element signature="e#4989#5248#0" />
+                <element signature="e#4995#5247#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>|</find>
+      <find>print('')</find>
+      <find>sw</find>
+      <find>date_converter</find>
+      <find>word_to_num</find>
+      <find>defaultdict(lis</find>
+      <find>- F score = 0</find>
+      <find>- recall = 0.000</find>
+      <find>&quot;</find>
+      <find>so</find>
+      <find>phraseDocs</find>
+      <find>length</find>
+      <find>- F score = 0.000</find>
+      <find>- F score = 0.00000</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>print('Not found')</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/porterStemmer.py" />
+        <option value="$PROJECT_DIR$/createIndex.py" />
+        <option value="$PROJECT_DIR$/queryIndex.py" />
+        <option value="$PROJECT_DIR$/createIndex_tfidf.py" />
+        <option value="$PROJECT_DIR$/queryIndex_tfidf.py" />
+        <option value="D:/IR_Project/Queries.txt" />
+        <option value="$PROJECT_DIR$/countries" />
+        <option value="$PROJECT_DIR$/LinguisticCorrecter.py" />
+        <option value="$PROJECT_DIR$/index_creator.py" />
+        <option value="$PROJECT_DIR$/shortcuts_dictionary.py" />
+        <option value="$PROJECT_DIR$/evaluation.py" />
+        <option value="$PROJECT_DIR$/soundex.py" />
+        <option value="$PROJECT_DIR$/linguistic_correcter.py" />
+        <option value="$PROJECT_DIR$/index_query.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="375" />
+    <option name="y" value="42" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="search-engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="search-engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.index_query">
+    <configuration name="evaluator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="search-engine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index_creator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="search-engine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/index_creator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index_query" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="search-engine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/index_query.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.index_creator" />
+      <item itemvalue="Python.index_query" />
+      <item itemvalue="Python.evaluator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.index_query" />
+        <item itemvalue="Python.evaluator" />
+        <item itemvalue="Python.index_creator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="217bf402-3521-4d68-86e3-922d7d8e7273" name="Default Changelist" comment="" />
+      <created>1594932798188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594932798188</updated>
+      <workItem from="1594932801627" duration="2677000" />
+      <workItem from="1594935748510" duration="3365000" />
+      <workItem from="1594989393074" duration="2967000" />
+      <workItem from="1595002001898" duration="4776000" />
+      <workItem from="1595019549069" duration="8574000" />
+      <workItem from="1595079617533" duration="15479000" />
+      <workItem from="1595108373284" duration="13714000" />
+      <workItem from="1595182963896" duration="7836000" />
+      <workItem from="1595271571225" duration="23000" />
+      <workItem from="1595360768359" duration="5623000" />
+      <workItem from="1595789697896" duration="5627000" />
+      <workItem from="1595796174988" duration="728000" />
+      <workItem from="1595875548689" duration="15821000" />
+      <workItem from="1595913110947" duration="43880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="131090000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16325037" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27512357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.5470086" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32991454" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" weight="0.3948718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.329296" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/search_engine$index_query.coverage" NAME="index_query Coverage Results" MODIFIED="1596048967007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search_engine$evaluation.coverage" NAME="evaluation Coverage Results" MODIFIED="1596047662495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search_engine$queryIndex.coverage" NAME="queryIndex Coverage Results" MODIFIED="1594940967736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search_engine$soundex.coverage" NAME="soundex Coverage Results" MODIFIED="1595891311597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search_engine$evaluator.coverage" NAME="evaluator Coverage Results" MODIFIED="1596048713081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search_engine$shortcuts_dictionary.coverage" NAME="shortcuts_dictionary Coverage Results" MODIFIED="1596046567988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search_engine$createIndex_tfidf.coverage" NAME="createIndex_tfidf Coverage Results" MODIFIED="1595091514004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search_engine$createIndex.coverage" NAME="createIndex Coverage Results" MODIFIED="1594936141854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search_engine$queryIndex_tfidf.coverage" NAME="queryIndex_tfidf Coverage Results" MODIFIED="1595925093344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search_engine$index_creator.coverage" NAME="index_creator Coverage Results" MODIFIED="1596046924199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../compiler/src/Java/Visitor/BaseASTVisitor.java" />
+    <entry file="file://$PROJECT_DIR$/stopwords.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queryIndex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#80#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="306" column="8" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titleIndex.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28128">
+          <caret line="1172" column="10" lean-forward="true" selection-start-line="1172" selection-start-column="10" selection-end-line="1172" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testIndex.dat">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="24">
+          <caret line="1" column="123" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCollection.dat">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="120">
+          <caret line="13403" selection-start-line="13403" selection-end-line="13403" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/nltk/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="584" selection-start-line="584" selection-end-line="584" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/porterStemmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8808">
+          <caret line="367" selection-start-line="367" selection-end-line="367" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createIndex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="e#106#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/nltk/stem/porter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IR_Project/relevance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3727" />
+      </provider>
+    </entry>
+    <entry file="file://D:/IR_Project/Queries.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="464" column="36" selection-start-line="464" selection-start-column="36" selection-end-line="464" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countries">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createIndex_tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+          <folding>
+            <element signature="e#697#893#0" />
+            <element signature="e#1358#2014#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../index_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+          <folding>
+            <element signature="e#443#829#0" />
+            <element signature="e#1041#1319#0" />
+            <element signature="e#1355#1910#0" />
+            <element signature="e#1402#1910#0" />
+            <element signature="e#1501#1910#0" />
+            <element signature="e#2952#3055#0" />
+            <element signature="e#3102#3146#0" />
+            <element signature="e#3192#5911#0" />
+            <element signature="e#3564#3767#0" />
+            <element signature="e#3928#4134#0" />
+            <element signature="e#4275#4473#0" />
+            <element signature="e#4817#4906#0" />
+            <element signature="e#4945#5070#0" />
+            <element signature="e#5113#5250#0" />
+            <element signature="e#5290#5378#0" />
+            <element signature="e#5425#5509#0" />
+            <element signature="e#5954#6013#0" />
+            <element signature="e#6059#6496#0" />
+            <element signature="e#6213#6440#0" />
+            <element signature="e#6527#6774#0" />
+            <element signature="e#6612#6774#0" />
+            <element signature="e#6793#6813#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../index_creator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="e#272#726#0" />
+            <element signature="e#770#893#0" />
+            <element signature="e#938#1216#0" />
+            <element signature="e#1254#1399#0" />
+            <element signature="e#2123#2133#0" />
+            <element signature="e#2495#2565#0" />
+            <element signature="e#3423#3625#0" />
+            <element signature="e#3423#3474#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queryIndex_tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="107" column="42" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#80#1" />
+            <element signature="e#310#449#0" />
+            <element signature="e#729#873#0" />
+            <element signature="e#913#1204#0" />
+            <element signature="e#1527#2655#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../search-engine-2/search-engine/createIndex_tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="83" column="17" lean-forward="true" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../search-engine-2/search-engine/queryIndex_tfidf.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../createIndex_tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="138" column="18" lean-forward="true" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../queryIndex_tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="100" column="43" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soundex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#26#60#0" />
+            <element signature="e#1025#1281#1" />
+            <element signature="e#1553#1592#0" />
+            <element signature="e#1630#1656#0" />
+            <element signature="e#4198#4397#0" />
+            <element signature="e#4216#4337#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shortcuts_dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#43#435#0" />
+            <element signature="e#66#252#0" />
+            <element signature="e#301#435#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linguistic_correcter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#94#2102#0" />
+            <element signature="e#164#1050#0" />
+            <element signature="e#496#1003#0" />
+            <element signature="e#547#1003#0" />
+            <element signature="e#600#778#0" />
+            <element signature="e#821#1003#0" />
+            <element signature="e#1105#1864#0" />
+            <element signature="e#1206#1486#1" />
+            <element signature="e#1782#1825#0" />
+            <element signature="e#1922#2102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#355#9195#0" />
+            <element signature="e#666#1328#0" />
+            <element signature="e#1372#1495#0" />
+            <element signature="e#1540#1969#0" />
+            <element signature="e#2015#4298#0" />
+            <element signature="e#2223#2427#0" />
+            <element signature="e#2496#2703#0" />
+            <element signature="e#2769#2968#0" />
+            <element signature="e#3162#3251#0" />
+            <element signature="e#3290#3415#0" />
+            <element signature="e#3458#3595#0" />
+            <element signature="e#3635#3723#0" />
+            <element signature="e#3770#3854#0" />
+            <element signature="e#3974#4275#0" />
+            <element signature="e#4341#4400#0" />
+            <element signature="e#4436#5136#0" />
+            <element signature="e#4483#5136#0" />
+            <element signature="e#4582#5136#0" />
+            <element signature="e#5180#5422#0" />
+            <element signature="e#5234#5422#0" />
+            <element signature="e#5268#5422#0" />
+            <element signature="e#5480#6296#0" />
+            <element signature="e#5636#5978#0" />
+            <element signature="e#5857#5978#0" />
+            <element signature="e#6001#6171#0" />
+            <element signature="e#6002#6089#0" />
+            <element signature="e#6357#6460#0" />
+            <element signature="e#6511#6738#0" />
+            <element signature="e#6788#7402#0" />
+            <element signature="e#6942#7346#0" />
+            <element signature="e#6993#7178#0" />
+            <element signature="e#7454#8762#0" />
+            <element signature="e#7604#7963#0" />
+            <element signature="e#7647#7963#0" />
+            <element signature="e#7782#7913#0" />
+            <element signature="e#7782#7821#0" />
+            <element signature="e#8344#8457#0" />
+            <element signature="e#8536#8711#0" />
+            <element signature="e#8822#9017#0" />
+            <element signature="e#9062#9195#0" />
+            <element signature="e#9214#9518#0" />
+            <element signature="e#9265#9518#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_creator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="e#343#7530#0" />
+            <element signature="e#654#1289#0" />
+            <element signature="e#1333#1456#0" />
+            <element signature="e#1501#2125#0" />
+            <element signature="e#1811#2046#0" />
+            <element signature="e#2168#2227#0" />
+            <element signature="e#2273#4556#0" />
+            <element signature="e#2481#2685#0" />
+            <element signature="e#2754#2961#0" />
+            <element signature="e#3027#3226#0" />
+            <element signature="e#3420#3509#0" />
+            <element signature="e#3548#3673#0" />
+            <element signature="e#3716#3853#0" />
+            <element signature="e#3893#3981#0" />
+            <element signature="e#4028#4112#0" />
+            <element signature="e#4232#4533#0" />
+            <element signature="e#4602#5060#0" />
+            <element signature="e#4777#5004#0" />
+            <element signature="e#5098#5243#0" />
+            <element signature="e#5298#5520#0" />
+            <element signature="e#5558#6540#0" />
+            <element signature="e#5641#6513#0" />
+            <element signature="e#5670#6513#0" />
+            <element signature="e#6036#6159#0" />
+            <element signature="e#6270#6380#0" />
+            <element signature="e#6577#7530#0" />
+            <element signature="e#6629#7358#0" />
+            <element signature="e#6726#7358#0" />
+            <element signature="e#6827#7039#0" />
+            <element signature="e#7549#7751#0" />
+            <element signature="e#7549#7600#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#127#4494#0" />
+            <element signature="e#263#653#0" />
+            <element signature="e#702#964#0" />
+            <element signature="e#753#964#0" />
+            <element signature="e#787#964#0" />
+            <element signature="e#1055#1264#0" />
+            <element signature="e#1345#1574#0" />
+            <element signature="e#1660#1746#0" />
+            <element signature="e#1828#2908#0" />
+            <element signature="e#2278#2544#0" />
+            <element signature="e#2961#3048#0" />
+            <element signature="e#3091#3146#0" />
+            <element signature="e#3184#4273#0" />
+            <element signature="e#3241#4273#0" />
+            <element signature="e#3365#4273#0" />
+            <element signature="e#3516#3718#0" />
+            <element signature="e#3796#4206#0" />
+            <element signature="e#3834#3946#0" />
+            <element signature="e#4327#4363#0" />
+            <element signature="e#4409#4436#0" />
+            <element signature="e#4474#4494#0" />
+            <element signature="e#4513#5248#0" />
+            <element signature="e#4989#5248#0" />
+            <element signature="e#4995#5247#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
